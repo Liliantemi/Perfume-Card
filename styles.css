@@ -13,96 +13,101 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 1500px;
+  width: 800px;
   height: 70vh;
   /*gap: 70px; */
   background-color: white;
-  border-radius: 30px;
+  border-radius: 24px;
 }
 
 .product-image2 {
   border-top-left-radius: 30px;
   border-bottom-left-radius: 30px;
   height: 70vh;
-  width: 750px;
+  width: 400px;
 }
 
 .product-info {
-  font-size: 1.2rem;
-  width: 750px;
+  /* font-size: 1.2rem; */
+  width: 400px;
   color: #333;
-  margin-bottom: 8px;
-  padding: 80px;
+  margin-bottom: 0px;
+  height: 70vh;
+  padding: 30px 40px;
 }
 
 .h3 {
   font-family: montserrat, sans-serif;
-  font-size: 24px;
+  font-size: 16px;
   font-weight: bolder;
   color: #413f3f;
-  letter-spacing: 15px;
-  margin-top: 0px;
+  letter-spacing: 7px;
+  margin-top: 30px;
 }
 
 .name {
   font-family: Fraunces, Serif;
-  font-size: 88px;
-  font-weight: 00;
-  line-height: 90px;
+  font-size: 40px;
+  font-weight: 900; /* Maximum font-weight */
+  text-shadow: 1px 0 0 black, -1px 0 0 black;
+  /* color: black; */
+  width: 80%;
+  line-height: 44px;
   color: rgb(39, 38, 38);
 }
 
 .product-description {
   font-family: montserrat, sans-serif;
-  font-size: 30px;
+  font-size: 18px;
   color: #535252;
-  line-height: 56px;
+  line-height: 28px;
+  width: 90%;
   font-weight: 700;
-  margin-top: 30px;
+  margin-top: 0px;
 }
 
 .price {
   display: flex;
   align-items: center;
   gap: 50px;
-  /*margin-top: 20px;*/
+  margin-top: -40px;
 }
 
 .current-price {
   color: hsl(158, 36%, 37%);
-  font-size: 72px;
+  font-size: 44px;
   font-family: Fraunces, serif;
   font-weight: 700;
 }
 
 .original-price {
   color: #5e5d5d;
-  font-size: 30px;
+  font-size: 20px;
   font-family: Fraunces, serif;
   text-decoration-line: line-through;
 }
 
 .button {
   background-color: hsl(158, 36%, 37%);
-  border-radius: 18px;
+  border-radius: 12px;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 110px;
+  height: 64px;
   border: none;
-  gap: 24px;
+  gap: 16px;
   transition: background-color 0.3s ease;
 }
 
 .image3 {
-  width: 36px;
+  width: 24px;
   color: rgb(255, 255, 255);
 }
 
 .cart {
   font-family: montserrat, sans-serif;
-  font-size: 32px;
+  font-size: 20px;
   font-weight: 700;
   color: rgb(255, 255, 255);
 }
